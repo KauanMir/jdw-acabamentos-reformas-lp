@@ -32,6 +32,9 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+/* Torna <picture> transparente no layout — filhos tornam-se itens diretos do container */
+picture { display: contents; }
+
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 
 body {
